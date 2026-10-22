@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.js-current-date').forEach(function(el){el.textContent=new Date().toLocaleDateString('th-TH')})});
